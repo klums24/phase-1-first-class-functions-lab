@@ -19,7 +19,7 @@ const returnLastTwoDrivers = function(arrayOfDrivers){
 
 
 //test output for returnLastTwoDrivers
-console.log(returnLastTwoDrivers(["Antonia", "Nuru", "Amari", "Mo"]));
+//console.log(returnLastTwoDrivers(["Antonia", "Nuru", "Amari", "Mo"]));
 
 //selectingDrivers
 const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
@@ -48,9 +48,12 @@ const fareTripler = function(initialFare){
 //console.log(fareTripler(10));
 
 //selectDifferentDrivers()
-function selectDifferentDrivers(drivers, driverFunction){
-    return driverFunction(drivers);
-}
+function selectDifferentDrivers(drivers, functionName){
+    
+        return functionName(drivers);
+    }
+     
+
 
 
 
